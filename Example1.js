@@ -1,5 +1,5 @@
 var wordArray = [];
-var word = "kuntal";
+var word = "noon";
 var reword = "";
 
 for(var i = 0 ; i < word.length; i++){
@@ -8,8 +8,7 @@ for(var i = 0 ; i < word.length; i++){
 
 for(var i = 0; i<word.length; i++){
     reword+= wordArray.pop();
-    
-    console.log("wordArray",wordArray,reword);
+
 }
 
 
